@@ -34,14 +34,14 @@ exports.config = {
         // 3. Set device capabilities.
         // 4. Set Perfecto Media repository path of App under test.
         app: 'PUBLIC:ExpenseTracker/Native/ExpenseAppVer1.0.apk',
-        'platformName': 'Android',
-        'platformVersion': '14',
-        'platformBuild': 'AP1A.240305.019.A1',
-        'location': 'NA-US-BOS',
-        'resolution': '1080x2400',
-        'deviceStatus': 'AVAILABLE',
-        'manufacturer': 'Google',
-        'model': 'Pixel 7',
+       'platformName': 'Android',
+            'platformVersion': '14',
+            'platformBuild': 'UP1A.231105.001.B2',
+            'location': 'NA-US-BOS',
+            'resolution': '1080x2340',
+            'deviceStatus': 'AVAILABLE',
+            'manufacturer': 'Google',
+            'model': 'Pixel 4A (5G)',
         // 5. Set the unique identifier of your app
         appPackage: 'io.perfecto.expense.tracker',
         autoLaunch: true, // Whether to have Appium install and launch the app automatically.
